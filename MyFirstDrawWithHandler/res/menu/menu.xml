@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/startItem"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/startString"/>
+    
+     <item
+        android:id="@+id/stopItem"
+        android:orderInCategory="100"
+        android:showAsAction="ifRoom"
+        android:title="@string/stopString"/>
+    
+    
+
+</menu>

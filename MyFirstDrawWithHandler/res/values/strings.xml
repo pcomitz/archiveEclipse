@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Draw with Handler</string>
+    <string name="action_settings">Settings</string>
+    <string name="startString">Start</string>
+     <string name="stopString">Stop</string>
+    
+
+</resources>

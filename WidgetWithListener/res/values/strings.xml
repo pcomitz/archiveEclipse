@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">WidgetWithListener</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_widget_with_listener">WidgetWithListenerActivity</string>
+	<string name="red_prompt">Red</string>
+	<string name="blue_prompt">Blue</string>
+	<string name="green_prompt">Green</string>	
+	<string name="yellow_prompt">Yellow</string>	
+    
+</resources>

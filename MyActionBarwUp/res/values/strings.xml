@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Action Bar with Up</string>
+    <string name="visibleItemString">IS 413</string>
+    <string name="hello_world">Hello world with action Bar!</string>
+	<string name="item1String">Item 1</string>
+	<string name="item2String">Item 2</string>
+	<string name="item3String">Item 3</string>
+	<string name="item4String">Item 4</string>
+	<string name="item5String">Item 5</string>
+</resources>

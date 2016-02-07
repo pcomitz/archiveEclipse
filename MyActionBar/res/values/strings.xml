@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My Action Bar</string>
+    <string name="visibleItemString">Search Selected</string>
+    <string name="hello_world">Hello world with action Bar!</string>
+	<string name="item1String">Item 1</string>
+	<string name="item2String">Item 2</string>
+	<string name="item3String">Item 3</string>
+</resources>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Async Task</string>
+    <string name="lespaul">Les Paul</string>
+     <string name="loadicon">Load Icon</string>
+     <string name="otherbutton">Other Button</string>
+</resources>

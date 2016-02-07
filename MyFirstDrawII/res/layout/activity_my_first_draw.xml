@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+  
+     <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:gravity="center">
+
+	        <RadioButton
+	            android:id="@+id/redRadio"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="false"
+	            android:text="@string/red" />
+	
+	        <RadioButton
+	            android:id="@+id/greenRadio"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="false"
+	            android:text="@string/green" />
+	        
+	        <RadioButton
+	            android:id="@+id/blueRadio"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/blue" />
+    </RadioGroup>
+    
+    <Button 
+        android:id="@+id/submitButton"
+        android:layout_width="match_parent"
+	  	android:layout_height="wrap_content"
+	  	android:text="@string/submit" />
+    
+	<FrameLayout 
+	  android:orientation="vertical"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content">
+	  <com.is413.myfirstdraw.MyView
+	    android:id="@+id/myView"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	  />
+	</FrameLayout>
+
+</LinearLayout>

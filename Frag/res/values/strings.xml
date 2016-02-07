@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Temperature Fragments </string>
+    <string name="hello_world">Hello world!</string>
+    <string name="fah_fragment_string">Fahrenheit Fragment</string>
+     <string name="cel_fragment_string">Celsius Fragment</string>
+    <string name="action_settings">Settings</string>
+    <string name="container_string">Fragment Container</string>
+    <string name="fahrenheit_string">Fahrenheit</string>
+    <string name="celsius_string">Celsius</string>
+    <string name="prompt">Enter temperature to convert</string>
+    <string name="resultString">The result is:</string>
+    
+
+</resources>

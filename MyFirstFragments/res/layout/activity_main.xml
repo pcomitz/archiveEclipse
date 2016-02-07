@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/header_text" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup1"
+        android:layout_below="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" 
+        >
+     
+        <RadioButton
+            android:id="@+id/fahrenheit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/fahrenheit_prompt" />
+        
+			<RadioButton
+            android:id="@+id/celsius_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/celsius_prompt" />        
+            
+			<RadioButton
+            android:id="@+id/default_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:text="@string/default_prompt" />     
+        
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/tempEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/radioGroup1"
+        android:layout_below="@id/radioGroup1"
+        android:ems="20"
+        android:hint="@string/temp_hint" >
+
+        
+    </EditText>
+        
+ <FrameLayout 
+       android:id="@+id/fragmentContainer"
+       android:layout_below="@id/tempEditText"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent" 
+ />
+    
+
+</RelativeLayout>

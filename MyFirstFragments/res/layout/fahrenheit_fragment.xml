@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvFahrenheitFragment"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/fahrenheit_fragment_string"
+    	android:textSize="12sp"
+        />
+    
+    <TextView
+        android:layout_below="@id/tvFahrenheitFragment"
+        android:id="@+id/tvFahrenheitResult"
+        android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:text="@string/fahrenheit_result_string"
+    	android:textSize="12sp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvFahrenheitResult"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="17dp"
+        android:contentDescription="@string/description"
+        android:src="@drawable/f_thermometer_small" />
+       
+</RelativeLayout>

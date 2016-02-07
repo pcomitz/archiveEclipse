@@ -1,0 +1,12 @@
+<resources>
+
+    <string name="app_name">LinLayout</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_lin_layout">Linear Layout Five</string>
+    <string name="red_string">Red</string>
+    <string name="yellow_string">Yellow</string>
+    <string name="green_string">Green</string>
+    <string name="blue_string">Blue</string>
+
+</resources>

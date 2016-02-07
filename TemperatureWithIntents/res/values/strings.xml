@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Temperature with Intents</string>
+    <string name="fahrenheitLabel">Fahrenheit Activity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="promptFahrenheit">Enter Temperature in degrees F</string>
+    <string name="convertedToCelsius">Temperature in Celsius: </string>
+    <string name="hintFahrenheit">Temperature to convert to Celsius</string>
+    <string name="initialText">212 </string>
+    <string name="submit">Submit</string>
+    <string name = 'toCelsius'>Celsius Activity</string>
+    <string name="title_activity_celsius">Celsius Activity</string>
+    <string name="convertedToFahrenheit">Temperature in Fahrenheit: </string>
+    <string name="promptCelsius">Enter Temperature in degrees C</string>
+    <string name="hintCelsius">Temperature to convert to Fahrenheit</string>
+     <string name="initialTextCelsius">100</string>
+    <string name = 'toFahrenheit'>Fahrenheit Activity</string>
+
+</resources>

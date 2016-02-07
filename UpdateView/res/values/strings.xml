@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Update View </string>
+    <string name="action_settings">Settings</string>
+    <string name="tv_string">Update a view with invalidate()</string>
+    <string name="count_string">Count</string>
+</resources>

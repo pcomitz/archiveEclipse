@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">My First Fragments</string>
+    <string name="action_settings">Settings</string>
+    <string name="header_text">Fragments</string>
+    <string name="fahrenheit_prompt">Fahreneheit</string>
+    <string name="celsius_prompt">Celsius</string>
+     <string name="default_prompt">Default</string>
+    <string name="temp_hint">Enter temperature to convert</string>
+    <string name="submitText">Submit</string>
+    <string name="fahrenheit_fragment_string">This is the Fahrenheit Fragment</string>
+    <string name="fahrenheit_result_string">The result is: </string>
+    <string name="celsius_fragment_string">This is the Celsius Fragment</string>
+    <string name="celsius_result_string">The result is: </string>
+      <string name="description">conent description </string>
+    
+</resources>

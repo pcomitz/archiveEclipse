@@ -1,0 +1,67 @@
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    	xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+ 		 >
+        <TableRow >
+            
+            <TextView 
+                android:layout_width ="match_parent"
+                android:layout_height ="wrap_content"
+                android:text= "@string/presentValuePrompt" />
+                
+            <EditText 
+                android:id="@+id/presentValueEdit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_amount"
+                android:inputType="number" />
+        </TableRow>
+        
+        <TableRow>
+          <TextView 
+               android:layout_width ="wrap_content"
+               android:layout_height ="wrap_content"
+               android:text="@string/interestRatePrompt" />
+          
+           <EditText 
+                android:id="@+id/interestRateEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_rate"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+            
+        <TextView 
+               android:layout_width ="wrap_content"
+               android:layout_height ="wrap_content"
+               android:text="@string/compoundingPrompt" />
+          
+           <EditText 
+                android:id="@+id/compoundingEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hint_compounding"
+                android:inputType="number" />
+                      
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+         
+            <Button 
+                android:id="@+id/submitButton"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_span="2"
+                android:text="@string/submit" />
+               
+        </TableRow>
+  
+   </TableLayout>
+
